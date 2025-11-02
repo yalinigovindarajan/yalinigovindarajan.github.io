@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yalini | Link in Bio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    /* ==== Reset & Base ==== */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f4fafa;
+      color: #222;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /* ==== Container ==== */
+    .container {
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* ==== Avatar & Hero ==== */
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 4px solid #009688;
+      box-shadow: 0 4px 12px rgba(0, 150, 136, .2);
+    }
+
+    .hero h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #009688;
+      margin-bottom: .4rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ==== Social Icons ==== */
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: .8rem;
+      margin-bottom: 2rem;
+    }
+
+    .socials a {
+      color: #009688;
+      font-size: 1.5rem;
+      transition: transform .2s;
+    }
+
+    .socials a:hover {
+      transform: translateY(-3px);
+    }
+
+    /* ==== Buttons ==== */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: .9rem;
+    }
+
+    .btn {
+      display: block;
+      background: #009688;
+      color: #fff;
+      font-weight: 600;
+      padding: .9rem 1.2rem;
+      border-radius: .6rem;
+      transition: all .25s ease;
+      box-shadow: 0 2px 6px rgba(0, 150, 136, .3);
+    }
+
+    .btn:hover {
+      background: #00796b;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 150, 136, .4);
+    }
+
+    .btn.secondary {
+      background: #fff;
+      color: #009688;
+      border: 2px solid #009688;
+    }
+
+    .btn.secondary:hover {
+      background: #e0f2f1;
+    }
+
+    /* ==== Footer ==== */
+    footer {
+      margin-top: 2.5rem;
+      font-size: .85rem;
+      color: #777;
+    }
+
+    /* ==== Responsive ==== */
+    @media (max-width: 480px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero p {
+        font-size: .95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Avatar -->
+    <img src="https://via.placeholder.com/240/009688/ffffff?text=BI" alt="My Profile" class="avatar">
+
+    <!-- Hero -->
+    <div class="hero">
+      <h1>Yalini Govindarajan</h1>
+      <p>Ambitious Biomedical Engineer with IP's and various research works entitled by the government aiming to contribute to the wellbeing of the society</p>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="socials">
+      <a href="https://linkedin.com/company/biomed" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://instagram.com/biomed" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:hello@biomed.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <!-- CTA Buttons -->
+    <div class="links">
+      <a href="" class="btn">Explore Products</a>
+      <a href="" class="btn">Our Story</a>
+      <a href="" class="btn secondary">Join the Team</a>
+      <a href="" class="btn">Get in Touch</a>
+      <a href="" class="btn secondary">Read Blog</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Keep in touch, lets grow together 
+    </footer>
+  </div>
+
+</body>
+
+</html>
